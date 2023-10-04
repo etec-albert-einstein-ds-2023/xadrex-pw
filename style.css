@@ -1,3 +1,4 @@
+/*navbar*/
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 .title{
   vertical-align: center;
@@ -26,6 +27,7 @@ html, body {
   color: #FFF;
   height: 50px;
   padding: 1em;
+  margin-bottom: 17px;
 }
 
 .menu {
@@ -131,13 +133,53 @@ html, body {
     border-bottom: 1px solid #444;
   }
 }
+/*Fim Navbar*/
+body{
+  padding: 0;
+  margin:0;
+  font-family:Raleway;
+  background: #ececec;
+  box-sizing: border-box;
+}
 .text1{
 	float: center;
 	font-size:100%;
-	font-family:Raleway;
 	color:black;
 	margin-bottom: 8%;
   margin-left: 5%;
   margin-left: 5%;
   margin-top: 8%;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-box{
+  padding: 10px;
+  border-radius: 5px;
+  background: #ececec;
+  box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+.form-box input{
+  font-size: 18px;
+  color:black;
+  padding:15px 10px;
+  border: none;
+  outline: none;
+  background: #ececec;
+}
+.form-box button{
+  color: #fff;
+  padding:15px 20px;
+  font-size: 20px;
+  border: none;
+  background: #00BAF0;
+  cursor: pointer;
+  transition: .3s;
+}
+.form-box button:hover,
+.form-box button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
 }
