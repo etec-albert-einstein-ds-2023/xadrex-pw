@@ -22,7 +22,7 @@ html, body {
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: linear-gradient(to left, #f46b45, #eea849);
+  background: linear-gradient(to left, #00baf0, #69B2FF);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
@@ -127,14 +127,14 @@ html, body {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: #222;
+    background-color: #3c8aff;
   }
   .menu > li:not(:last-child) {
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #0CF7EB;
   }
   li a{
     text-decoration: none;
-    color: #c7c4c4;
+    color: #ffffff;
   }
 }
 /*Fim Navbar*/
@@ -145,6 +145,10 @@ body{
   background: #ececec;
   box-sizing: border-box;
   
+}
+h1{
+  font-family: Raleway;
+  padding-left: 3%;
 }
 .text1{
 	float: center;
@@ -173,13 +177,14 @@ body{
   border: none;
   outline: none;
   background: #ececec;
+  z-index: 1;
 }
 .form-box button{
   color: #fff;
   padding:15px 20px;
   font-size: 20px;
   border: none;
-  background: #00BAF0;
+  background: linear-gradient(to left, #00BAF0, #4996ee);
   cursor: pointer;
   transition: .3s;
 }
@@ -197,6 +202,13 @@ body{
   background: #444;
   position: fixed;
   display: flex;
-  justify-content: flex-end;
-  padding: top 2000%;;
+  height:40px;
+  width: 100%;
+  bottom: 0;
+}
+.stickyfooter p{
+  color: rgb(255, 255, 255);
+  margin: 3px;
+  font-weight: lighter;
+  align-self: center;
 }
