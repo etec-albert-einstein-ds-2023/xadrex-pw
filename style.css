@@ -132,6 +132,10 @@ html, body {
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+  li a{
+    text-decoration: none;
+    color: #c7c4c4;
+  }
 }
 /*Fim Navbar*/
 body{
@@ -140,6 +144,7 @@ body{
   font-family:Raleway;
   background: #ececec;
   box-sizing: border-box;
+  
 }
 .text1{
 	float: center;
@@ -156,7 +161,7 @@ body{
   justify-content: center;
 }
 .form-box{
-  padding: 10px;
+  padding: 15%;
   border-radius: 5px;
   background: #ececec;
   box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
@@ -164,7 +169,7 @@ body{
 .form-box input{
   font-size: 18px;
   color:black;
-  padding:15px 10px;
+  padding:10px 10px;
   border: none;
   outline: none;
   background: #ececec;
@@ -180,6 +185,18 @@ body{
 }
 .form-box button:hover,
 .form-box button:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  box-shadow: 0 0.5em 0.5em -0.4em;
   transform: translateY(-0.25em);
+}
+.containe img{
+  width: 70%;
+  height: 70%;
+}
+
+.stickyfooter{
+  background: #444;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  padding: top 2000%;;
 }
