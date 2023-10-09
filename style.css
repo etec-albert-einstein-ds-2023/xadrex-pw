@@ -23,7 +23,6 @@ html, body {
   justify-content: space-between;
   background-color: #00BAF0;
   background: linear-gradient(to left, #00baf0, #69B2FF);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
   padding: 1em;
@@ -81,7 +80,7 @@ html, body {
 
 #menu-toggle:checked + .menu-button-container .menu-button::before {
   margin-top: 0px;
-  transform: rotate(405deg);
+  transform: rotate(40deg);
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button {
@@ -90,12 +89,13 @@ html, body {
 
 #menu-toggle:checked + .menu-button-container .menu-button::after {
   margin-top: 0px;
-  transform: rotate(-405deg);
+  transform: rotate(-40deg);
 }
 
 @media (max-width: 700px) {
   .menu-button-container {
     display: flex;
+    margin-right: 15px;
   }
   .menu {
     position: absolute;
