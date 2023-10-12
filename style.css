@@ -27,6 +27,8 @@ html, body {
   height: 50px;
   padding: 1em;
   margin-bottom: 17px;
+  position: fixed;
+  top: 0;
 }
 
 .menu {
@@ -144,7 +146,6 @@ body{
   font-family:Raleway;
   background: #ececec;
   box-sizing: border-box;
-  
 }
 h1{
   font-family: Raleway;
@@ -163,13 +164,15 @@ h1{
   align-items: center;
   justify-content: center;
 }
-.form-box{
+/*form*/
+#form-box{
   padding: 15%;
   border-radius: 5px;
   background: #ececec;
   box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+  display: none;
 }
-.form-box input{
+#form-box input{
   font-size: 18px;
   color:black;
   padding:10px 10px;
@@ -178,7 +181,7 @@ h1{
   background: #ececec;
   z-index: 1;
 }
-.form-box button{
+#form-box button{
   color: #fff;
   padding:15px 20px;
   font-size: 20px;
@@ -187,31 +190,24 @@ h1{
   cursor: pointer;
   transition: .3s;
 }
-.form-box button:hover,
-.form-box button:focus {
+#form-box button:hover,
+#form-box button:focus {
   box-shadow: 0 0.5em 0.5em -0.4em;
   transform: translateY(-0.25em);
 }
+#form-box img{
+  justify-content: flex-start;
+}
+#popup{
+  z-index: 9;
+  position: fixed;
+  top: 0;
+}
+/*fim form*/
 .containe img{
   width: 70%;
   height: 70%;
 }
-
-.stickyfooter{
-  background: #444;
-  position: fixed;
-  display: flex;
-  height:40px;
-  width: 100%;
-  bottom: 0;
-}
-.stickyfooter p{
-  color: rgb(255, 255, 255);
-  margin: 3px;
-  font-weight: lighter;
-  align-self: center;
-}
-
 .text1 a{
   text-decoration: none;
   color: #0a928b;
@@ -222,4 +218,7 @@ h1{
   margin-top: 2%;
   justify-self: center;
   display: flex;
+}
+.containe{
+  margin-top: 75px;
 }
