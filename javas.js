@@ -1,7 +1,7 @@
 setTimeout(function abrirform() {
     document.getElementById("form-box").style.display = "block"
-},1500)
-function fechaform(event) {
-    event.preventDefault();
+},1900)
+function fechaform() {
     document.getElementById("form-box").style.display = "none"
 }
+ 

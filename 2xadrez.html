@@ -78,11 +78,13 @@
   <div id="popup">
     <form action="#">
       <div id="form-box">
-        <img src="assets/guerra.png" id="close" width="20px" height="20px" onclick="fechaform()">
+        <img src="assets/close.svg" id="close" width="30px" height="30px" onclick="fechaform()" style="margin:-10px;">
+        <h1>Entre na nossa newsletter!</h1>
+        <h3>Receba conteudo bem produzido e informativo!</h3>
         <input type="text" name="Email" placeholder="Escreva seu E-Mail aqui!" required>
         <input type="text" name="nome" placeholder="Nome" required>
         <input type="date" name="data" required placeholder="Data de nascimento">
-        <button onclick="fechaform(event);">Cadastrar!</button>
+        <button type="button" onclick="fechaform();">Cadastrar!</button>
       </div>
     </form>
   </div>
