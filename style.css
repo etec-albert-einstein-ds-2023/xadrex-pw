@@ -171,6 +171,7 @@ h1{
   background: #ececec;
   box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
   display: none;
+  top: 0;
 }
 #form-box input{
   font-size: 18px;
@@ -203,6 +204,42 @@ h1{
   position: fixed;
   top: 0;
 }
+
+/*form2*/
+#form-box2{
+  padding: 15%;
+  border-radius: 5px;
+  background: #ececec;
+  box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+  display: block;
+}
+#form-box2 input{
+  font-size: 18px;
+  color:black;
+  padding:10px 10px;
+  border: none;
+  outline: none;
+  background: #ececec;
+  z-index: 1;
+}
+#form-box2 button{
+  color: #fff;
+  padding:15px 20px;
+  font-size: 20px;
+  border: none;
+  background: linear-gradient(to left, #00BAF0, #4996ee);
+  cursor: pointer;
+  transition: .3s;
+}
+#form-box2 button:hover,
+#form-box2 button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translateY(-0.25em);
+}
+#form-box2 img{
+  justify-content: flex-start;
+}
+/*fim form2*/
 /*fim form*/
 .containe img{
   width: 70%;

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  <script src="javas.js" defer></script>
+  <script src="java" defer></script>
 </head>
 
 <body>
@@ -19,10 +19,16 @@
       overflow-y: hidden;
       overflow-x: hidden;
     }
+    body{
+      overflow-y: hidden;
+    }
+    h1{
+      padding-top: 25px;
+    }
   </style>
   <section class="top-nav">
     <div>
-      <a href="https://www.chess.com/">
+      <a href="0index.html">
         <img src="assets/logo.png" float="left" height="12%" width="12%">
       </a>
     </div>
@@ -45,7 +51,7 @@
     </div>
     <div class="box">
       <form action="#">
-        <div class="form-box">
+        <div id="form-box2">
           <input type="text" name="Email" placeholder="Escreva seu E-Mail aqui!" required>
           <input type="text" name="nome" placeholder="Nome" required>
           <input type="date" name="data" required placeholder="Data de nascimento">
