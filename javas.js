@@ -5,7 +5,8 @@ function fechaform() {
     document.getElementById("form-box").style.display = "none"
 }
  function darkmode(){
-    let bg = document.body.style.background = "#333"
-    let text = document.getElementById("text1").style.color = "whitesmoke"
-    let title = document.getElementById("title").style.color = "whitesmoke"
+    document.body.style.background = "#333"
+    document.getElementById("text1").style.color = "whitesmoke"
+    document.getElementById("title").style.color = "whitesmoke"
+    document.getElementById("form-box2").style.boxShadow = "box-shadow: 10px 10px 15px #424040, -10px -10px 15px #353535;"
 }
