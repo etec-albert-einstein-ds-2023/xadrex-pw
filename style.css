@@ -151,7 +151,7 @@ h1{
   font-family: Raleway;
   padding-left: 3%;
 }
-.text1{
+#text1{
 	font-size:100%;
 	color:black;
 	margin-bottom: 8%;
@@ -166,10 +166,10 @@ h1{
 }
 /*form*/
 #form-box{
-  padding: 15%;
+  padding: 7%;
   border-radius: 5px;
   background: #ececec;
-  box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+  box-shadow: 10px 10px 15px #424040, -10px -10px 15px #353535;
   display: none;
   top: 0;
 }
